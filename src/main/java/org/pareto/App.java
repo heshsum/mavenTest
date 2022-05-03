@@ -1,13 +1,17 @@
 package org.pareto;
+import static org.pareto.LogHelper.log;
 
 /**
  * Hello world!
  *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+public class App {
+    /**
+     * main method of the app.
+     * @author heshsum
+     * @param args not used
+     */
+    public static void main(String[] args) {
+        log("Hello World!");
     }
 }
